@@ -33,10 +33,10 @@ void nextPermutation(int* nums, int Size) {
 int main() {
 
     int i,size;
-    printf("Enter number of pocket:-");
+    printf("Enter number of element in array:-");
     scanf("%d",&size);
     int nums[size];
-    printf("Enter number of chocolate in pocket:-");
+    printf("Enter elements of array:-");
     for(i=0;i<size;i++)
     {
        scanf("%d",&nums[i]);  
